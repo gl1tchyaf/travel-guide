@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Travel Guide</string>
+    <string-array name="Language">
+        <item>Bangla</item>
+        <item>English</item>
+
+    </string-array>
+</resources>

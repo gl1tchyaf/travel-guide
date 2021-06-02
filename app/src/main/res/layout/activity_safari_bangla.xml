@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".safariBangla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="6dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_height="210dp"
+                android:layout_width="match_parent"
+                android:id="@+id/coxbazar"
+                app:auto_cycle="true"
+                app:placeholder="@drawable/whitebg"
+                app:error_image="@drawable/whitebg"
+                app:delay="0"
+                app:period="1000"
+                app:corner_radius="5"
+                ></com.denzcoskun.imageslider.ImageSlider>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/routeCox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Route" />
+
+            <Button
+                android:id="@+id/costCox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cost" />
+
+            <Button
+                android:id="@+id/MapLinkCox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Map Link" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="অবস্থান" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ঢাকা থেকে ৪০ কিলোমিটার উত্তরে ঢাকা - ময়মনসিংহ মহাসড়কের বাঘের বাজার থেকে ৩ কিলোমিটার পশ্চিমে সাফারি পার্কের অবস্থান। এর আয়তন ৩৬৯০ একর।" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:text="প্রাণ বৈচিত্র্য" />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="সাফারি পার্কে আছে জলহস্তী, বাঘ, সিংহ, হাতি, সম্বর হরিণ, মায়া হরিণ, চিত্রা হরিণ, ক্যাঙ্গারু, জেব্রা, বানর, হনুমান, ভাল্লুক, গয়াল, কুমির ও বিচিত্র পাখি।
+কোর সাফারি পার্ক
+কোর সাফারি পার্ক কোর সাফারি পার্কে সাফারি গাড়ি ব্যতীত কোন পর্যটক প্রবেশ করতে পারবেন না তবে তিনি বন্যপ্রাণী বেষ্টনীতে মুক্ত অবস্থায় প্রাকৃতিক পরিবেশে বিচরণরত বন্যপ্রাণী সমূহ গাড়িতে চড়ে অবলোকন করতে পারবেন। কোর সাফারী পার্ক ১৩৩৫ একর এলাকা নিয়ে প্রতিষ্ঠা করা হবে-যার মধ্যে ২০.০ একরে বাঘ, ২১.০ একরে সিংহ, ৮.৫০ একর কালো ভালুক, ৮.০ একরে আফ্রিকান চিতা, ৮১.৫০ একর চিত্রা হরিণ, ৮০.০ একর সাম্বাব ও গয়াল, ১০৫.০ একরে হাতী, ৩৫.০ একরে জলহস্তী, ২২.০ একরে মায়া ও প্যারা হরিণ, ২৫.০ একরে নীলগাই এবং বারো শিংগা, ১১৪.০ এবং স্পর্শ কেপশন সহ পাখির দ্বীপ, ৪০৭.০ একরে বন্য মহিষ এবং আফ্রিকান সাফারি পার্কের জন্য বরাদ্দ ২৯০.০ একর এলাকা সুবিন্যস্ত করা হবে।
+সাফারি কিংডম
+সাফারি কিংডম পর্যটকগণ পায়ে হেঁটে ঘুরে বেড়াতে পারবেন এবং প্রাণীকূলকে ছোটখাটো বেষ্টনীর মধ্যে আবদ্ধ রাখা হবে। সাফারি কিংডম এর মূল লক্ষ্য হচ্ছে: বিভিন্ন বন্য প্রাণীর নৈপুণ্য ও খেলাধুলা প্রদর্শনের মাধ্যমে পর্যটকদের চিত্তবিনোদন, বন্যপ্রাণী সংক্রান্ত শিক্ষা ও গবেষণার সুযোগ সৃষ্টি করা। সাফারি কিংডম ৫৭৫.০ একর এলাকা নিয়ে প্রতিষ্ঠা করা হবে। এর প্রধান কার্যক্রমের মধ্যে রয়েছে প্রকৃতিবীক্ষণ কেন্দ্র, জিরাফ ফিডিং স্পট, পেলিকেন আয়ল্যান্ড, বোটিং ও লেকজোন; বৃহৎ আকারের গাছপালা ঘেরা ক্রাউন ফিজেন্ট এভিয়ারী, ধনেশ এভিয়ারী, প্যারট এভিয়ারি সহ দেশি-বিদেশি পাখির পাখিশালা (আধটু), কুমির পার্ক, অর্কিড হাউজ, প্রজাপতি কর্নার, শকুন ও পেঁচা কর্নার, এগ ওয়ার্ল্ড, কচ্ছপ-কাছিম ব্রিডিং সেন্টার, লামচিতা হাউজ, ক্যাঙ্গারু বাগান, হাতি-শো গ্যালারি, ময়ূর/মেকাউ ওপেন ল্যান্ড, সর্প পার্ক, ফেন্সি কার্প গার্ডেন, ফেন্সি ডার্ক গার্ডেন, লিজার্ড পার্ক, ফুডকোর্ট , পর্যবেক্ষণ টাওয়ার ও জলাধার ইত্যাদি।
+" />
+
+    </LinearLayout>
+</ScrollView>

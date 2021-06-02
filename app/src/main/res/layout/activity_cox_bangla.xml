@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".coxBangla">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.cardview.widget.CardView
+            app:cardCornerRadius="6dp"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_height="210dp"
+                android:layout_width="match_parent"
+                android:id="@+id/coxbazar"
+                app:auto_cycle="true"
+                app:placeholder="@drawable/whitebg"
+                app:error_image="@drawable/whitebg"
+                app:delay="0"
+                app:period="1000"
+                app:corner_radius="5"
+                ></com.denzcoskun.imageslider.ImageSlider>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/routeCox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Route" />
+
+            <Button
+                android:id="@+id/costCox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Cost" />
+
+            <Button
+                android:id="@+id/MapLinkCox"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Map Link" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/coxBanglaDes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="কক্সবাজার সমুদ্র সৈকত (Coxsbazar Sea Beach) নিয়ে কথা বলতেই প্রথমে মাথায় আসে এটি পৃথিবীর সর্ববৃহৎ সমুদ্র সৈকত এবং বাংলাদেশের সবচেয়ে জনপ্রিয় পর্যটন স্থান। ১২০ কিলোমিটার দৈর্ঘ্য বিশিষ্ট অখণ্ড এ সাগর সৈকত দেশী বিদেশি পর্যটকদের উত্তাল ঢেউ এবং মনোমুগ্ধকর সূর্যাস্থের মায়াজালে আবদ্ধ করে রাখে। " />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="কক্সবাজার ভ্রমণের উপযুক্ত সময়: "
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="সাধারণত কক্সবাজার ভ্রমণের জন্যে সবাই শীতকালকেই বেছে নেন। কিন্তু কক্সবাজার এমন একটি জায়গা যেখানে বছরের যে কোন সময়ই আপনি বেড়াতে পারবেন। সময়ে সময়ে প্রকৃতি বদলায়, প্রকৃতির সেই রূপের প্রভাব থাকে কক্সবাজারেও। তাই ভিন্ন স্বাদ নিতে ঝুম বর্ষায় বা শরতের নীল আকাশের সাথে মিতালির জন্যে চলে যেতে পারেন কক্সবাজার, অথবা হেমন্তের এক পূর্ণিমার রাতে কক্সবাজারের রূপ আপনাকে মুগ্ধ করবে অবশ্যই। আর হ্যাঁ শীতকাল ছাড়া অন্য সময় গেলে কিন্তু একটা সুবিধা পাবেন। হোটেল ভাড়া থেকে শুরু করে প্রায় সবকিছুতেই তুলনামূলক দাম কমে পাবেন।" />
+
+    </LinearLayout>
+</ScrollView>
